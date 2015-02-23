@@ -4,14 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
-group :development, :test do
 gem 'sqlite3'
-end
-
-group :production do
-    gem 'pg'
-    gem 'rails_12factor'
-end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,4 +37,5 @@ gem 'paperclip'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 
